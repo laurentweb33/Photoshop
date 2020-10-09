@@ -1,0 +1,30 @@
+
+body{
+    background-color: black;
+}
+p {
+    margin: 1rem;
+}
+
+.btn {
+
+    padding: 5px 12px;
+    background: rgb(204, 64, 146);
+    color : #FFF;
+
+    &:hover{
+        background: rgb(6, 1, 22);
+    }
+
+
+
+}
+.btn-danger{
+    @extend .btn;
+    background: red;
+    color: #000;
+
+    &:hover{
+        background: rgb(51, 15, 15);
+    }
+}
